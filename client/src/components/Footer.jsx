@@ -18,6 +18,7 @@ export default function FooterCom() {
             </Link>
           </div>
           <div className='grid grid-cols-2 gap-8 mt-4 sm:grid-cols-3 sm:gap-6'>
+            {/*
             <div>
               <Footer.Title title='About' />
               <Footer.LinkGroup col>
@@ -37,6 +38,7 @@ export default function FooterCom() {
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
+            */}
             <div>
               <Footer.Title title='Follow us' />
               <Footer.LinkGroup col>
