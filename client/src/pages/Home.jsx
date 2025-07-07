@@ -19,12 +19,10 @@ export default function Home() {
       <div className='flex flex-col gap-6 p-10  px-3 max-w-6xl mx-auto '>
         <h1 className='text-3xl font-bold lg:text-6xl pt-10'>Welcome to my Blog</h1>
         <p className='text-gray-500 text-xs sm:text-sm'>
-          Welcome to my blog! Here you'll find a wide range of articles,
-          tutorials, and resources designed to help you grow as a developer.
-          Whether you're interested in web development, software engineering,
-          programming languages, or best practices in the tech industry, there's
-          something here for everyone. Dive in and explore the content to expand
-          your knowledge and skills.
+          Welcome to NSUTExperienceX! This platform features real placement experiences shared by NSUT seniors to help you prepare for your own interviews.  
+          Whether you're looking for insights into technical rounds, HR interviews, or aptitude tests, you'll find valuable stories and tips here.  
+          Dive in, explore authentic experiences, and get a head start on your placement journey!
+
         </p>
         <Link
           to='/search'
