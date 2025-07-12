@@ -39,19 +39,24 @@ export default function SignUp() {
   };
   return (
     <div className='min-h-screen mt-20'>
-      <div className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>
+      <div className='flex p-3 max-w-4xl mx-auto flex-col md:flex-row md:items-center gap-10'>
         {/* left */}
-        <div className='flex-1'>
-          <Link to='/' className='font-bold dark:text-white text-4xl'>
-            <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-              NSUTExperienceX
-            </span>
-            <br></br>
-            Get Placement-Ready with Experiences that Matter.
+        <div className="flex-1">
+          <Link to="/" className="block mb-4">
+            <h1 className="text-4xl font-extrabold dark:text-white">
+              <span className="px-3 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl text-white shadow">
+                NSUTExperienceX
+              </span>
+            </h1>
           </Link>
-          <p className='text-sm mt-5'>
-            You can sign up with your email and password
-            or with Google.
+
+          <p className="text-lg font-medium text-gray-300 dark:text-gray-300 max-w-md leading-relaxed">
+            Join a community of NSUT students sharing real placement insights. <br />
+            Learn from your seniors and ace your interviews.
+          </p>
+
+          <p className="text-sm mt-6 text-gray-400">
+            You can sign up with your email and password or continue with Google.
           </p>
         </div>
         {/* right */}

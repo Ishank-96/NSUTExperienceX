@@ -74,10 +74,12 @@ export default function CreatePost() {
               setFormData({ ...formData, category: e.target.value })
             }
           >
-            <option value='uncategorized'>Select a category</option>
-            <option value='techround'>Technical Round</option>
-            <option value='hrround'>HR Round</option>
-            <option value='oaexp'>OA Experience</option>
+            <option value="uncategorized">Other / Miscellaneous</option>
+              <option value="Full Interview Experience">Full Interview Experience</option>
+              <option value="Technical Round">Technical Round</option>
+              <option value="HR Round">HR Round</option>
+              <option value="OA Experience">Online Assessment (OA)</option>
+              <option value="General Tips">General Tips & Preparation Advice</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>

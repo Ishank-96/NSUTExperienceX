@@ -130,10 +130,12 @@ export default function Search() {
               value={sidebarData.category}
               id='category'
             >
-              <option value='uncategorized'>Uncategorized</option>
-              <option value='hrround'>HR Round</option>
-              <option value='oaexp'>OA Experience</option>
-              <option value='techround'>Tech Round</option>
+              <option value="uncategorized">Other / Miscellaneous</option>
+              <option value="Full Interview Experience">Full Interview Experience</option>
+              <option value="Technical Round">Technical Round</option>
+              <option value="HR Round">HR Round</option>
+              <option value="OA Experience">Online Assessment (OA)</option>
+              <option value="General Tips">General Tips & Preparation Advice</option>
             </Select>
           </div>
           <Button type='submit' outline gradientDuoTone='purpleToPink'>
