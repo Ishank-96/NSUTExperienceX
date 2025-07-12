@@ -58,9 +58,9 @@ export default function About() {
         </p>
       </div>
     </div>
-    <div className='mt-10'>
+    {/* <div className='mt-10'>
       <CallToAction />
-    </div>
+    </div> */}
   </div>
 </div>
 
